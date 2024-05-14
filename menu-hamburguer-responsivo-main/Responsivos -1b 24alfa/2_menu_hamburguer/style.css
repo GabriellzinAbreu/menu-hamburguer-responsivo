@@ -1,0 +1,30 @@
+.dropdown{
+    display: none;
+}
+
+@media (max-width:980px) {
+    .dropdown{
+        display: block;
+        background-color: gold;
+        text-align: center;
+    }
+    .dropdown a{
+        color: black;
+       line-height: 30px;
+       text-decoration: none;
+    }
+    .dropdown i {
+        font-size: 20px;
+    }
+    .dropdown .dropdown-content{
+        display: none;
+    }
+    .dropdown:hover .dropdown-content{
+        display: block;
+    }
+    .dropdown ul li{
+        list-style: none;
+    }
+        
+    
+}
